@@ -1,0 +1,44 @@
+Curtis Chou
+2/28/20
+Source Code File: "library.java"
+Linked Lists Lab 2
+A program that determines whether or not a patron is in our library system.
+Our library system is a linked list data structure.
+
+- Construct a linked list structure
+      - Node features: name, Library card, Street, City, Zip, next
+      - Linked List features: head, load method, inList method, add method,
+      print method
+
+- User interface method
+      - void, no param
+      - ask for name // scanner
+      - call inList method and return a statement saying whether or not they are
+      in the list
+
+- add method
+      - adds things to the linked list
+
+- print method
+      - iterates through llist, printing all nodes
+
+- load method
+      - void, no param
+      - create 8 instances of the Node class
+      - add the 8 nodes to the list
+      - PATRONS IN LIST:
+              - Pam
+              - Jim
+              - Kevin
+              - Michael
+              - Dwight
+              - Angela
+              - Andy
+              - Meridth
+
+- inList method
+      - void, @param name
+      - iterate through list with current_node.next
+      - check list.name
+      - if inputted name == list.name, print info
+      - if current_node == null, print they are not in the list

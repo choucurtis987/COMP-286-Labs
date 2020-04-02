@@ -1,0 +1,23 @@
+Curtis Chou
+4/1/20
+Source Code File: "Palindrome.java"
+Recursion Lab 4
+PROMPT: (1) Write a recursive function that returns true if the input string is a palindrome,
+that is, a word that is the same when reversed. Examples of palindromes are “deed”, ”rotor”.
+A word is a palindrome if the first and last letters match and the rest of the string is a palindrome.
+
+
+- make a boolean method that determines if a word is a palindrome
+      - make all letters lowercase to battle case sensitivity
+
+- checking if a word is a palindrome:
+      - check to see if first char of string matches last char of string
+      - if they match remove the first and last char
+      - pass the new string into the function again
+
+- BASE CASES:
+      - if string.length() is equal to 1, return true
+      - if string.length() is equal to 2, and last and first char match, return true
+
+- SPECIAL CASE:
+      - if string is equal to 0, return false

@@ -1,0 +1,24 @@
+Curtis Chou
+4/1/20
+Source Code File: "LinkedListStack.java" and "SetUp.java"
+Stacks Lab 3
+A program that designs and displays the schedule for when a library should
+release a book onto their shelves. The program utilizes a linked list data
+structure and Stack ADT.
+
+
+- Create a list of 12 books (Linked List)
+      - Stores: title, author, month in each node
+
+- Utilize a stack to push and pop books from the list
+      - Push = print title and author
+      - Pop = print title, release month, alternate month
+
+- Create a linked list implementation of a stack
+      - methods of the stack include: push, pop, isEmpty, peek, print list
+
+- Have method that creates the linked list with nodes pre-made
+
+- Have a push all method that pushes all books to the stack
+
+- Have a pop all method that pushes all books of the stack

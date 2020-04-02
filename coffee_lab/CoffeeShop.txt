@@ -1,0 +1,35 @@
+Curtis Chou
+2/3/20
+Source Code File: "coffeeShop.java"
+Coffee Shop Lab 1
+A program that calculates a customer's total cost in the coffee shop
+
+
+__COFFEE SHOP CLASS__
+
+- have an array of coffee types prices
+- have a parallel array for coffee options, String
+- private variable for tax rate
+- public variable for coffeeType and desiredCups
+
+- create "start" method to start register
+      START WHILE LOOP
+      - "customerService" method assigns global "coffeeType" variable and assigns
+      desired number of cups
+            - print coffee menu with menu items corresponding to array of coffee types
+            indexes
+            - use Scanner class to input desired number of cups and coffee type
+
+      - "calculate" method calculates total cost of customer's order
+            - coffeeType * cups = subtotal
+            - subtotal + (subtotal*taxRate) = total
+            - print total, cups, tax
+            - void type
+
+      - desired number of cups equals 0 break loop
+      END LOOP
+
+
+__TEST CLASS__
+- create object of coffeeShop class
+- call coffeeShop.start()
